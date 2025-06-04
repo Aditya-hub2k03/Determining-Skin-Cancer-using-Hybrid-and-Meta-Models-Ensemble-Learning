@@ -13,10 +13,20 @@ In the Main.ipynb, for each algorithm, the code are provided with prediction usi
 <p>For accessing all the trained models, a link is provided which redirects to <a href= "https://huggingface.co/AdityaHK/SkinDetect/tree/main"><b><i>Hugging Face</b></i></a> where the trained models can be downloaded/cloned/accessed.</p>
 The file directory mapping is given as
   
-<p><b>Main folder</b></p>
-<p>--->Main.ipynb</p>
-<p>--->streamlit_app.py</p>
-<p>--->requirements.txt</p>
-<p>--->Dataset folder</p>
-<p>&nbsp &nbsp &nbsp &nbsp--->Images Folder</p>
-<p>&nbsp &nbsp &nbsp &nbsp--->metadata.csv</p>
+Main Folder/
+
+│
+
+├── 📓 Main.ipynb               ← Jupyter Notebook for development or testing
+
+├── 🖥️ streamlit_app.py         ← Streamlit frontend application
+
+├── 📄 requirements.txt         ← Required Python packages
+
+│
+
+└── 📁 Dataset                  ← Dataset directory
+        
+   ├── 📁 Images               ← Folder containing all image files
+    
+   └── 📄 metadata.csv         ← Metadata describing the images

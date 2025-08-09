@@ -19,7 +19,7 @@
 - [Project Structure](#project-structure)  
 - [Screenshots](#screenshots)  
 - [Contributing](#contributing)  
-- [License](#license)
+
 
 ---
 
@@ -109,5 +109,3 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
-Licensed under the repository's specified terms. Check LICENSE file.

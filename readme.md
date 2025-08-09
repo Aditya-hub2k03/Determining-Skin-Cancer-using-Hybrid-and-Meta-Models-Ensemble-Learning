@@ -98,7 +98,7 @@ pip install -r requirements.txt
 ![Prediction Example](screenshots/prediction_sample.png)  
 
 
-*(Ensure screenshots are placed in a `/screenshots` folder in the repo)*
+
 
 ---
 

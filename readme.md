@@ -92,10 +92,10 @@ pip install -r requirements.txt
 ## 📷 Screenshots  
 
 ### 🔹 Streamlit App Interface  
-![Streamlit UI](screenshots/streamlit_ui.png)  
+![Streamlit UI](Screenshots/Streamlit UI1.png)  
 
 ### 🔹 Sample Prediction  
-![Prediction Example](screenshots/prediction_sample.png)  
+![Prediction Example](Screenshots/Sample Prediction.png)  
 
 
 

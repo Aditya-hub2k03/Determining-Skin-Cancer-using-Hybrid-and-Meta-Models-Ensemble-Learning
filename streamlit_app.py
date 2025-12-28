@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw
 import os
   
 # --- YOLOv5 Model ---
-class YOLOv5(nn.Module):
+class YOLOv5(nn.Module): 
     def __init__(self):
         super(YOLOv5, self).__init__()
         self.conv1 = nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1)

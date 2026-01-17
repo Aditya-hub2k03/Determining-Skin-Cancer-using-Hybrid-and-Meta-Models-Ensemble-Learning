@@ -53,7 +53,7 @@ hybrid_rcnn_ssd_model = tf.keras.models.load_model('models/hybrid_rcnn_ssd_skin_
 # Define prediction function
 def predict_with_box(img, model_type):
     img_tensor = torch.tensor(img).unsqueeze(0).permute(0, 3, 1, 2).float()
-    
+     
     if model_type == "yolo":
         output = yolo_model(img_tensor)
         pred_class = torch.argmax(output, dim=1).item()

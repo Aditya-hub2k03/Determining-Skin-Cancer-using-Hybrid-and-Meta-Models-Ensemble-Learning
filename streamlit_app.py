@@ -114,7 +114,7 @@ def predict_with_box(img, model_type):
     draw.rectangle(box, outline="red", width=3)
     return img_with_box, pred_class
 
-# Streamlit app
+# Streamlit app UI
 st.title("Skin Lesion Classification with Multiple Models")
 st.write("Upload up to 10 images, and get predictions from each model with highlighted areas.")
 
